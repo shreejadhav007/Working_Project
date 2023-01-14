@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.108.0" />
+    <title>Blog Template · Bootstrap v5.3</title>
+    <link rel="stylesheet" href="blog.css" />
+    <!-- <link rel="" href="https://getbootstrap.com/docs/5.3/examples/blog/"> -->
+
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <style>
+      body {
+        background-color: antiquewhite;
+        color: black;
+      }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, 0.1);
+        border: solid rgba(0, 0, 0, 0.15);
+        border-width: 1px 0;
+        box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+          inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+      .imgg img {
+        max-width: 500px;
+        max-height: 350px;
+        justify-content: center;
+        align-items: center;
+      }
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      .rounded {
+        background-image: url("img/health.jpg");
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="blog-header lh-1 py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-4 pt-1">
+            <a class="link-secondary" href="https://donation.sightsaversindia.in/?utm_source=google&utm_medium=google_search_cnvrs8&utm_campaign=sightsavers-test&gclid=Cj0KCQiAn4SeBhCwARIsANeF9DLXB-FTgQHvdO5Pf3Xnmld07YGGz2oe5eNpUrIWPyM-HTuOXh4pQOkaAjV0EALw_wcB">Visit NGO Site</a>
+          </div>
+          <div class="col-4 text-center">
+            <a class="blog-header-logo text-dark" href="#"
+              >Medicine Donation Software</a
+            >
+          </div>
+          <div class="col-4 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-secondary" href="login/LoginAndSignUp.html">Sign up</a>
+          </div>
+        </div>
+      </header>
+
+      <div class="nav-scroller py-1 mb-2">
+        <nav class="nav d-flex justify-content-between">
+          <a class="p-2 link-secondary" href="#">World</a>
+          <a class="p-2 link-secondary" href="#">U.S.</a>
+          <a class="p-2 link-secondary" href="#">Technology</a>
+          <a class="p-2 link-secondary" href="#">Design</a>
+          <a class="p-2 link-secondary" href="#">Culture</a>
+          </nav>
+      </div>
+    </div>
+
+    <main class="container">
+      <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+        <div class="col-md-6 px-0">
+          <h1 class="display-4 fst-italic">
+            Walking is the mans best medicine.
+          </h1>
+          <p class="lead my-3">
+            “The wise man does not lay up his own treasures. The more he gives to others, the more he has for his own.”<br><strong> Lao Tzu </strong>
+          </p>
+          <p class="lead mb-0">
+            <a href="https://www.who.int/teams/health-product-and-policy-standards/medicines-selection-ip-and-affordability/donations" class="text-white fw-bold">Continue reading...</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">Our Visions</h2>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('img/unsplash-photo-1.jpg')"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Vitamin supplements
+                </h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('img/unsplash-photo-2.jpg')"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Disease prevention training
+                </h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('img/unsplash-photo-3.jpg')"
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Pre- and postnatal care for pregnant moms and newborns
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div></div>
+
+      <div class="row g-5">
+        <div class="col-md-8">
+          <h3 class="pb-4 mb-4 fst-italic border-bottom">
+            From Our Research ,
+          </h3>
+
+          <article class="blog-post">
+            <h2 class="blog-post-title mb-1">
+              27% Deaths in India caused by poor access to drugs and knowledge:
+              Medicus
+            </h2>
+            <p class="blog-post-meta">
+              January 1, 2021 by <a href="#">Mark</a>
+            </p>
+
+            <p>
+              <strong
+                >India ranks at a dismal 145th in quality and accessibility of
+                health services globally where as many as one-third of the
+                deaths are preventable with timely communication about and
+                availability of medicine.</strong
+              >
+
+              An independent study finds that only 1.2 percent chemists in
+              Maharashtra — three of the 252 reviewed in five cities – have
+              stocks as the rest chose not to cite legal hassles. India ranks at
+              a dismal 145th in quality and accessibility of health services
+              globally where as many as one-third of the deaths are preventable
+              with timely communication about and availability of medicine.
+              Medicus aims to utilize the flourishing digital landscape in India
+              to connect all the stakeholders in the healthcare sector –
+              doctors, pharmaceutical companies, social sector organizations,
+              medical associations and government bodies – to ensure that people
+              in remote areas can access round-the-clock and quality health
+              services.
+            </p>
+            <hr />
+            <p>
+              <strong>This is some additional information here. <br /></strong>
+              Maharashtra is one among the five states that register the highest
+              combined risk of ischemic heart disease, stroke, and diabetes in
+              2016, which has significantly increased since 1990. As per the
+              data of the National Family Health Survey (NFHS 4), only 56.2
+              percent of children is fully immunized in 2015-16, which is a drop
+              of more than 2 percent since the previous survey. Besides, 37.4
+              percent married women do not use family planning methods, up from
+              35.1 percent during the previous survey and trends show dismal
+              uptake of any method other than female sterilization, such as
+              intra-uterine devices (1.6 per cent), contraceptive pills (2.4 per
+              cent) and condoms (7.1 percent). The state is also struggling to
+              stock adequate medical abortion (MA) pills. An independent study
+              finds that only 1.2 per cent chemists in Maharashtra — three of
+              the 252 reviewed in five cities – have stocks as the rest chose
+              not to citing legal hassles. Founder of Medicus, Bhavesh Shahsays,
+              “In the hinterlands of India, it is not rare to come across people
+              who have travelled hundreds of kilometers and faced considerable
+              difficulty to get a medicine as basic as a painkiller or
+              anti-allergic. Last year, the Maharashtra Association of Resident
+              Doctors (MARD) complained of shortage of medicines in hospitals of
+              Nagpur, Satara, Miraj, and Nanded. The Comptroller and Auditor
+              General of India (CAG) too noted that at least 24 states are short
+              of essential drugs. We are about to complete a year of Ayushman
+              Bharat scheme and the shortage of medicines and lack of continuous
+              medical education (CME) of doctors can cause serious damage to
+              this well-intended scheme. This app is a novel concept and we
+              expect it to play a significant role in closing the gap between
+              the unmet needs of the people and availability of health services
+              as well as medicines. About one-third of the deaths that take
+              place in India are preventable and happen only because health
+              services in smaller cities and villages are far from optimum.
+              However, everyone has a smartphone these days. Medicus tries to
+              utilize this deep penetration of digital technologies for the
+              benefit of people by connecting doctors, medicine manufacturers
+              and suppliers, social sector organizations, medical association
+              and the government.”
+            </p>
+            <h2>Drug Shortage: Causes, Impact, and Mitigation Strategies</h2>
+            <p>This is an example blockquote in action:</p>
+
+            <p>
+              Drug shortage is a global issue affecting low, middle, and
+              high-income countries. Many countries have developed various
+              strategies to overcome the problem, while the problem is
+              accelerating, affecting the whole world. All types of drugs, such
+              as essential life-saving drugs, oncology medicines, antimicrobial
+              drugs, analgesics, opioids, cardiovascular drugs,
+              radiopharmaceutical, and parenteral products, are liable to the
+              shortage.
+            </p>
+            <div class="imgg text-center my-3">
+              <img src="img/graph.jpg" alt="drug shortage graph" /> <br />
+              Number of drugs in shortage per year
+            </div>
+            <h3>
+              There are so many reasons for drug shortage <br />
+              Such As :
+            </h3>
+            <p>
+              The causes of drug shortages are multifactorial. For example,
+              manufacturing problems, financial pressures, shortage of raw
+              materials, and just in time inventory are found as essential
+              causes of medicine shortages in developed countries of the EU,
+              United States, Saudi Arabia, and developing countries like
+              Pakistan, Fiji
+            </p>
+            <ul>
+              <li><strong><a href="https://www.frontiersin.org/articles/10.3389/fphar.2021.693426/full">Supply Issues</a></strong> </li>
+              <li><strong><a href="https://www.frontiersin.org/articles/10.3389/fphar.2021.693426/full">Manufacturing Issues</a></strong> </li>
+              <li><strong><a href="https://www.frontiersin.org/articles/10.3389/fphar.2021.693426/full">Quality problems</a> </strong></li>            
+              <li><strong><a href="https://www.frontiersin.org/articles/10.3389/fphar.2021.693426/full">Unavailability of Raw Material</a></strong> </li>
+              <li><strong><a href="https://www.frontiersin.org/articles/10.3389/fphar.2021.693426/full">Logistic Issues</a></strong> </li>
+              <li><strong><a href="https://www.frontiersin.org/articles/10.3389/fphar.2021.693426/full"> Demand Issues</a></strong></li>
+            </ol>
+          </ul>
+
+            <h2></h2>Here are some bad impact on our social life , like;
+            <p>
+             
+            <ul>
+              <li>
+                <strong><a href="https://www.frontiersin.org/articles/10.3389/fphar.2021.693426/full">Economic Impacts</a></strong>
+              </li>
+              <li>
+                <strong><a href="https://www.frontiersin.org/articles/10.3389/fphar.2021.693426/full">Clinical Impacts</a></strong>
+              </li>
+              <li>
+                <strong><a href="https://www.frontiersin.org/articles/10.3389/fphar.2021.693426/full">Humanistic Impacts</a></strong>            
+              </li>
+              <li>
+                <strong><a href="https://www.frontiersin.org/articles/10.3389/fphar.2021.693426/full">Mitigation Strategies</a></strong>
+              </li>
+              <li>
+                <strong><a href="https://www.frontiersin.org/articles/10.3389/fphar.2021.693426/full">Impact on poor peoples</a></strong>
+              </li>
+            </ul>
+            
+            <h2>Appropriate medicine donation practice can have major advantages for both recipients and
+              donors:</h2>
+              <ul>
+            <li><p>
+              A medicine donation can save lives and ease suffering when well coordinated and
+managed. In cases where recipient countries are not able to ensure adequate access to
+medicines, donations can bring major benefits to persons in need.  
+            </p> </li>
+            
+           <li> <p>
+              Medicine donations can become a strategic benefit for the recipient country. Medicine
+              donations are often used to support the rebuilding of health systems, or to ensure
+              access of populations to health products they otherwise would not have.  
+              
+            </p></li>
+            <li><p>
+              Good donation practices may provide savings in development support budgets,
+              enabling these resources to be used for other purposes.
+            </p></li>
+          </article>
+
+          <article class="blog-post">
+            <h2 class="blog-post-title mb-1">
+              Let’s talk about our very own NGO, Seruds OLD AGE HOMES
+            </h2>
+            <p class="blog-post-meta">
+              December 23, 2020 by <a href="#">Jacob</a>
+            </p>
+
+            <p>
+              SERUDS Old Age Home is almost a decade and a half old. Still, we
+              face tough times when it comes to providing medicines and regular
+              hospital visits. A total of 20 elderly women stays in Seruds Old
+              Age Homes, out of which 9 have critical health issues. With mostly
+              on medication (promptly required) and occasional checkup is direly
+              needed. Nevertheless, we never found an issue with that because
+              there are nice people who make a charity of medicines. Though
+              people like you donate, still the needs aren’t met. We try our
+              best to take care of them like our own parents or grandparents. We
+              request everyone to make donations for medicines and other medical
+              requirements so that the world for the golden ager can be a better
+              place.
+            </p>
+
+            <h3>Example table</h3>
+            <p>And don't forget about tables in these posts:</p>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Upvotes</th>
+                  <th>Downvotes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Alice</td>
+                  <td>10</td>
+                  <td>11</td>
+                </tr>
+                <tr>
+                  <td>Bob</td>
+                  <td>4</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>Charlie</td>
+                  <td>7</td>
+                  <td>9</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td>Totals</td>
+                  <td>21</td>
+                  <td>23</td>
+                </tr>
+              </tfoot>
+            </table>
+
+            <p>
+              This is some additional paragraph placeholder content. It's a
+              slightly shorter version of the other highly repetitive body text
+              used throughout.
+            </p>
+          </article>
+
+          <article class="blog-post">
+            <h2 class="blog-post-title mb-1">New feature</h2>
+            <p class="blog-post-meta">
+              December 14, 2020 by <a href="#">Chris</a>
+            </p>
+
+            <p>
+              This is some additional paragraph placeholder content. It has been
+              written to fill the available space and show how a longer snippet
+              of text affects the surrounding content. We'll repeat it often to
+              keep the demonstration flowing, so be on the lookout for this
+              exact same string of text.
+            </p>
+            <ul>
+              <li>First list item</li>
+              <li>Second list item with a longer description</li>
+              <li>Third list item to close it out</li>
+            </ul>
+            <p>
+              This is some additional paragraph placeholder content. It's a
+              slightly shorter version of the other highly repetitive body text
+              used throughout.
+            </p>
+          </article>
+
+          <nav class="blog-pagination" aria-label="Pagination">
+            <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
+            <a class="btn btn-outline-secondary rounded-pill disabled">Newer</a>
+          </nav>
+        </div>
+
+        <div class="col-md-4">
+          <div class="position-sticky" style="top: 2rem">
+            <div class="p-4 mb-3 bg-light rounded">
+              <h4 class="fst-italic">About</h4>
+              <p class="mb-0">
+                Customize this section to tell your visitors a little bit about
+                your publication, writers, content, or something else entirely.
+                Totally up to you.
+              </p>
+            </div>
+
+            <div class="p-4">
+              <h4 class="fst-italic">Archives</h4>
+              <ol class="list-unstyled mb-0">
+                <li><a href="#">March 2021</a></li>
+                <li><a href="#">February 2021</a></li>
+                <li><a href="#">January 2021</a></li>
+                <li><a href="#">December 2020</a></li>
+                <li><a href="#">November 2020</a></li>
+                <li><a href="#">October 2020</a></li>
+                <li><a href="#">September 2020</a></li>
+                <li><a href="#">August 2020</a></li>
+                <li><a href="#">July 2020</a></li>
+                <li><a href="#">June 2020</a></li>
+                <li><a href="#">May 2020</a></li>
+                <li><a href="#">April 2020</a></li>
+              </ol>
+            </div>
+
+            <div class="p-4">
+              <h4 class="fst-italic">Elsewhere</h4>
+              <ol class="list-unstyled">
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="blog-footer">
+      <p>
+        This site is built as medical Purpose <a href="#">WHO</a>  by
+        <a href="https://Instagram.com/shriyashjadhv007">@shriyashjadhv007</a>
+      </p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+  </body>
+</html>
